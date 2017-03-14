@@ -1,0 +1,11 @@
+syntax = "proto3";
+package charlotte.common.traits.relationship.v1;
+
+enum RelationshipTraitType {
+
+}
+
+message ITrait {
+    RelationshipTraitType type = 0;
+    bytes payload = 1;
+}

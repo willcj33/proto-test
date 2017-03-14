@@ -1,0 +1,5 @@
+syntax = "proto3";
+package charlotte.transformers.gmail.v1;
+
+service TransformGmailService {
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+package charlotte.common.traits.event.v1;
+
+message Published {
+    int64 Value = 1;
+}

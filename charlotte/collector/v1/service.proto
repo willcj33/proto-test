@@ -1,0 +1,5 @@
+syntax = "proto3";
+package charlotte.collector.v1.service;
+
+service CollectorService {
+}

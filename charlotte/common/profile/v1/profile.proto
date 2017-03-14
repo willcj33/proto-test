@@ -1,0 +1,14 @@
+syntax = "proto3";
+package charlotte.common.profile.v1;
+
+import "charlotte/common/traits/profile/v1/itrait.proto";
+import "charlotte/common/source/v1/source.proto";
+
+message Profile  {
+    string id = 1;
+    string name = 2;
+    int64 createdOn = 3;
+    string sourceIdentifier = 4;
+    SourceType sourceType = 5;
+    repeated ITrait traits = 6;
+}

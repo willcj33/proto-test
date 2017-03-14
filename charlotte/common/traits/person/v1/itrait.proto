@@ -1,0 +1,12 @@
+syntax = "proto3";
+package charlotte.common.traits.person.v1;
+
+
+enum PersonTraitType {
+
+}
+
+message ITrait {
+    PersonTraitType type = 0;
+    bytes payload = 1;
+}

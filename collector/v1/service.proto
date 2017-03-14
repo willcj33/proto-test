@@ -1,5 +1,0 @@
-syntax = "proto3";
-package collector.v1.service;
-
-service CollectorService {
-}

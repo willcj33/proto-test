@@ -1,0 +1,18 @@
+syntax = "proto3";
+package charlotte.common.traits.event.v1;
+
+enum ActionType {
+    MESSAGE = 0;
+    LIKE = 1;
+    COMMENT = 2;
+    SHARE = 3;
+    REACT_SMILE = 4;
+    REACT_MAD = 5;
+    REACT_HEART = 6;
+    REACT_LAUGH = 7;
+    REACT_SAD = 8;
+}
+
+message Action {
+    ActionType Value = 1;
+}

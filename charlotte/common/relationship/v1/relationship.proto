@@ -1,0 +1,10 @@
+syntax = "proto3";
+package charlotte.common.source.v1;
+
+import "charlotte/common/traits/relationship/v1/itrait.proto";
+
+message Relationship  {
+    string id = 1;
+    int64 createdOn = 2;
+    repeated ITrait traits = 3;
+}

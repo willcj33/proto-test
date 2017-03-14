@@ -1,6 +1,0 @@
-syntax = "proto3";
-package common.traits.event.v1.updated;
-
-message Updated {
-    int64 Value = 1;
-}

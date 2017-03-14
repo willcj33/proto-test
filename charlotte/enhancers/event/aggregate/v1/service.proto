@@ -1,0 +1,5 @@
+syntax = "proto3";
+package charlotte.enhancers.event.aggregate.v1;
+
+service EnhanceEventAggregateService {
+}

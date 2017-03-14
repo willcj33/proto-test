@@ -1,5 +1,0 @@
-syntax = "proto3";
-package access.graph.v1.service;
-
-service AccessGraphService {
-}

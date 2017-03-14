@@ -1,6 +1,0 @@
-syntax = "proto3";
-package common.traits.event.v1.body;
-
-message Body {
-    string Value = 1;
-}

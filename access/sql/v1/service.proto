@@ -1,5 +1,0 @@
-syntax = "proto3";
-package access.sql.v1.service;
-
-service AccessSqlService {
-}

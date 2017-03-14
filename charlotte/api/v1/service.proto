@@ -1,0 +1,5 @@
+syntax = "proto3";
+package charlotte.api.v1.service;
+
+service ApiService {
+}

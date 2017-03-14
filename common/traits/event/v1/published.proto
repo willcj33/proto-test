@@ -1,6 +1,0 @@
-syntax = "proto3";
-package common.traits.event.v1.published;
-
-message Published {
-    int64 Value = 1;
-}
