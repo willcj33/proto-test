@@ -2,11 +2,12 @@ syntax = "proto3";
 package charlotte.common.event.v1;
 
 import "charlotte/common/profile/v1/source.proto";
+import "charlotte/common/traits/event/v1/itrait.proto";
 
 message Event  {
     string id = 1;
     string name = 2;
     int64 createdOn = 3;
-    SourceType sourceType = 4;
-    repeated ITrait = 5;
+    charlotte.common.profile.v1.SourceType sourceType = 4;
+    repeated charlotte.common.traits.event.v1.ITrait traits = 5;
 }

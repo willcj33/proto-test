@@ -6,5 +6,5 @@ import "charlotte/common/traits/relationship/v1/itrait.proto";
 message Relationship  {
     string id = 1;
     int64 createdOn = 2;
-    repeated ITrait traits = 3;
+    repeated charlotte.common.traits.relationship.v1.ITrait traits = 3;
 }

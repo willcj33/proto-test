@@ -9,6 +9,6 @@ message Profile  {
     string name = 2;
     int64 createdOn = 3;
     string sourceIdentifier = 4;
-    SourceType sourceType = 5;
-    repeated ITrait traits = 6;
+    charlotte.common.source.v1.SourceType sourceType = 5;
+    repeated charlotte.common.traits.profile.v1.ITrait traits = 6;
 }
