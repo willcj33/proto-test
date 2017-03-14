@@ -3,10 +3,10 @@ package charlotte.common.traits.person.v1;
 
 
 enum PersonTraitType {
-
+    FILLER = 0;
 }
 
 message ITrait {
-    PersonTraitType type = 0;
-    bytes payload = 1;
+    PersonTraitType type = 1;
+    bytes payload = 2;
 }

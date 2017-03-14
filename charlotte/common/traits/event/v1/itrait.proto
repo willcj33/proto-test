@@ -11,6 +11,6 @@ enum EventTraitType {
 }
 
 message ITrait {
-    EventTraitType type = 0;
-    bytes payload = 1;
+    EventTraitType type = 1;
+    bytes payload = 2;
 }

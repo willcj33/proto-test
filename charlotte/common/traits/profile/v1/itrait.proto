@@ -2,10 +2,10 @@ syntax = "proto3";
 package charlotte.common.traits.profile.v1;
 
 enum ProfileTraitType {
-
+    FILLER = 0;
 }
 
 message ITrait {
-    ProfileTraitType type = 0;
-    bytes payload = 1;
+    ProfileTraitType type = 1;
+    bytes payload = 2;
 }

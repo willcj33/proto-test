@@ -2,10 +2,10 @@ syntax = "proto3";
 package charlotte.common.traits.relationship.v1;
 
 enum RelationshipTraitType {
-
+    FILLER = 0;
 }
 
 message ITrait {
-    RelationshipTraitType type = 0;
-    bytes payload = 1;
+    RelationshipTraitType type = 1;
+    bytes payload = 2;
 }
