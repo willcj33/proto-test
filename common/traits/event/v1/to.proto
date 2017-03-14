@@ -1,0 +1,6 @@
+syntax = "proto3";
+package common.traits.event.v1.to;
+
+message To {
+    string Value = 1;
+}

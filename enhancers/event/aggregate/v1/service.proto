@@ -1,0 +1,5 @@
+syntax = "proto3";
+package enhancers.event.aggregate.v1.service;
+
+service EnhanceEventAggregateService {
+}

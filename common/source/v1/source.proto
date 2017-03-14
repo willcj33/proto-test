@@ -1,0 +1,16 @@
+syntax = "proto3";
+package common.source.v1;
+
+enum SourceType {
+  GOOGLE_MAIL = 0;
+  GOOGLE_CALENDAR = 1;
+  LINKED_IN = 2;
+  FACEBOOK = 3;
+  INSTAGRAM = 4;
+}
+
+message Source  {
+    string id = 1;
+    string name = 2;
+    SourceType type= 3;
+}
